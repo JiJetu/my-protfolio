@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-[#212428] shadow-md flex justify-between items-center lg:px-6 md:px-10 border-b-[1px] border-b-gray-600">
       {/* Logo Section */}
-      <div className="relative w-32 h-16 flex items-center">
+      <div className="relative w-32 h-full -pl-2">
         <Image
           src={logo}
           alt="Logo"

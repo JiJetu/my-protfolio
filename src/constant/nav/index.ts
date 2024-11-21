@@ -7,7 +7,7 @@ export const navLinksData = [
   {
     _id: 1002,
     title: "About",
-    link: "/features",
+    link: "#about",
   },
   {
     _id: 1003,

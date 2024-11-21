@@ -16,7 +16,7 @@ export default function HomeLayout({
   return (
     <div className="w-full h-auto bg-[#212428] text-[#c4cfde] px-4">
       <Navbar />
-      {children}
+      <div className="min-h-screen container mx-auto">{children}</div>
       <Footer />
       <FooterBottom />
     </div>

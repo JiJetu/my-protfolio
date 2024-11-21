@@ -1,9 +1,9 @@
-import { Button } from "@nextui-org/react";
+import Banner from "@/components/page/home/Banner";
 
 export default function Home() {
   return (
     <>
-      <Button>Click me</Button>
+      <Banner />
     </>
   );
 }

@@ -1,8 +1,9 @@
 import logo from "./image/IMG-2040217-WA028~-2.png";
+import bannerImg from "./image/download.png";
 
 export {
   logo,
-  // bannerImg,
+  bannerImg,
   // projectOne,
   // projectTwo,
   // projectThree,

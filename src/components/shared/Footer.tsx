@@ -14,19 +14,19 @@ const Footer = () => {
           <div className="flex gap-4">
             <a
               href="https://www.linkedin.com/in/md-jaoadul-islam/"
-              className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300"
+              className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-[#ff014f] cursor-pointer duration-300"
             >
               <FaLinkedinIn />
             </a>
             <a
               href="https://www.facebook.com/ji.jetu.73"
-              className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300"
+              className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-[#ff014f] cursor-pointer duration-300"
             >
               <FaFacebookF />
             </a>
             <a
               href="https://www.instagram.com/ji_jetu/"
-              className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300"
+              className="w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-[#ff014f] cursor-pointer duration-300"
             >
               <FaInstagram />
             </a>
@@ -37,7 +37,7 @@ const Footer = () => {
           <h3 className="text-xl uppercase text-[#ff014f] tracking-wider">
             Quick Link
           </h3>
-          <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+          <ul className="flex flex-col gap-4 font-medium py-6 overflow-hidden">
             {["About", "Portfolio", "Services", "Blog", "Contact"].map(
               (link) => (
                 <li key={link}>
@@ -55,7 +55,7 @@ const Footer = () => {
           <h3 className="text-xl uppercase text-[#ff014f] tracking-wider">
             Resources
           </h3>
-          <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+          <ul className="flex flex-col gap-4 font-medium py-6 overflow-hidden">
             {[
               "Authentication",
               "System Status",
@@ -77,7 +77,7 @@ const Footer = () => {
           <h3 className="text-xl uppercase text-[#ff014f] tracking-wider">
             Developers
           </h3>
-          <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
+          <ul className="flex flex-col gap-4 font-medium overflow-hidden py-6">
             {[
               "Documentation",
               "Authentication",

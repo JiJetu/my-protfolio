@@ -2,6 +2,7 @@
 
 /* eslint-disable react/no-unescaped-entities */
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { motion } from "framer-motion";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -23,11 +24,11 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div
-      className="w-full lgl:w-1/2 flex flex-col gap-20"
-      data-aos="fade-up"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="1500"
+    <motion.div
+      className="w-full lg:w-1/2 flex flex-col gap-20"
+      initial={{ opacity: 0, x: -100 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1.5, ease: "easeOut" }}
     >
       <div className="flex flex-col gap-5">
         <h1 className="text-6xl font-bold text-white">
@@ -55,7 +56,7 @@ const LeftBanner = () => {
         </p>
       </div>
       {/* Media */}
-      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+      <div className="flex flex-col xl:flex-row gap-6 lg:gap-0 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
@@ -101,7 +102,7 @@ const LeftBanner = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

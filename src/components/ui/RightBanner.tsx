@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { bannerImg } from "../../../public/assets";
 import { motion } from "framer-motion";

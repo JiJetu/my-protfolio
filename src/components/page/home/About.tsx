@@ -1,3 +1,5 @@
+"use client";
+
 /* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 import Title from "@/components/shared/Title";
@@ -34,13 +36,24 @@ const About = () => {
           refined, operational code drives my enthusiasm. I'm eager to
           collaborate and turn our shared visions into outstanding realities!
         </h3>
+
         <div className="flex gap-5 my-8">
-          <p className="flex flex-col">
+          {/* <div className="flex flex-col">
+            <h5 className="text-4xl text-center">0.6<span className="text-designColor">+</span></h5>
+            Years experience
+          </div> */}
+          <div className="flex flex-col">
             <h5 className="text-4xl text-center">
               3<span className="text-designColor">+</span>
             </h5>
             Completed Projects
-          </p>
+          </div>
+          {/* <div className="flex flex-col">
+            <h5 className="text-4xl text-center">
+              00<span className="text-designColor">+</span>
+            </h5>
+            Companies Work
+          </div> */}
         </div>
       </motion.div>
       <div className="flex gap-3">

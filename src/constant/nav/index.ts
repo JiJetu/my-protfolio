@@ -2,7 +2,7 @@ export const navLinksData = [
   {
     _id: 1001,
     title: "Home",
-    link: "/",
+    link: "#home",
   },
   {
     _id: 1002,

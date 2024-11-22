@@ -1,3 +1,5 @@
+"use client";
+
 import Title from "@/components/shared/Title";
 import ProjectsCard from "@/components/ui/ProjectsCard";
 import { projectCar } from "../../../../public/assets";
